@@ -1,0 +1,23 @@
+# SeqNN Recurrent Charge v1.9.0 — Python dependencies
+#
+# Derivado de los imports del notebook seqnn_recurrent_charge_v1_9_0.ipynb.
+# Versiones mínimas testeadas en Vertex AI Workbench (Python 3.10, T4 GPU).
+# Para reproducibilidad exacta, congelar con `pip freeze > requirements.lock.txt`
+# tras la primera corrida exitosa.
+
+# --- Core scientific stack ---
+numpy>=1.24
+pandas>=2.0
+polars>=0.20            # DataFrame engine principal (preferido sobre pandas)
+pyarrow>=14.0           # Backend Arrow para BigQuery → Polars sin pasar por pandas
+
+# --- ML / DL ---
+torch>=2.1              # Modelos GRU/RNN/LSTM/TCN/DEEP_GRU + entrenamiento mixed-precision
+scikit-learn>=1.3       # StandardScaler, LogisticRegression (abstención), métricas
+scipy>=1.11             # scipy.optimize.minimize_scalar para temperature scaling
+
+# --- BigQuery ---
+google-cloud-bigquery>=3.13
+
+# --- Persistencia de artefactos ---
+joblib>=1.3
