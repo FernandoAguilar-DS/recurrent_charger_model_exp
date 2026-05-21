@@ -1,0 +1,35 @@
+[
+  {
+    "segment": "\u22647d",
+    "n_users": 804870,
+    "pct_total": 87.40995591871842,
+    "predicted_days_median": 1.5167063975323685,
+    "n_send_reminder": 777899,
+    "n_monitor": 0,
+    "n_no_action": 26971,
+    "decision": "send_reminder: Push/SMS T-1 para fondeo urgente",
+    "kpi_impact": "Approval rate +5-10%, retries -15%"
+  },
+  {
+    "segment": "8-14d",
+    "n_users": 115840,
+    "pct_total": 12.580378562531019,
+    "predicted_days_median": 8.782972574855968,
+    "n_send_reminder": 115839,
+    "n_monitor": 0,
+    "n_no_action": 1,
+    "decision": "send_reminder: Push T-2/T-3 + an\u00e1lisis de liquidez",
+    "kpi_impact": "Approval rate +3-7%, quejas -5%"
+  },
+  {
+    "segment": "15-30d",
+    "n_users": 89,
+    "pct_total": 0.009665518750563368,
+    "predicted_days_median": 14.572501448527383,
+    "n_send_reminder": 0,
+    "n_monitor": 88,
+    "n_no_action": 1,
+    "decision": "monitor: Campa\u00f1a educativa, reminder T-7",
+    "kpi_impact": "Activaci\u00f3n mensual +2-5%"
+  }
+]

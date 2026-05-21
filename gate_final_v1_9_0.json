@@ -1,0 +1,20 @@
+{
+  "version": "v1.9.0",
+  "model": "TCN_CAL",
+  "decoder_timing": "q=0.15",
+  "mae_d": 10.481071086618307,
+  "p90_d": 26.884205280952745,
+  "late_pct": 0.04846216339336526,
+  "ewr7d": 0.36018075815148703,
+  "ece": 0.1174051452524582,
+  "cindex_ev": 0.741338474029253,
+  "naive_pred_d": 6.0,
+  "naive_mae_d": 10.291630000013518,
+  "model_bucket_acc": 0.2627305943850343,
+  "naive_bucket_acc": 0.26540303579611585,
+  "gate_absolute_pass": false,
+  "gate_competitive_pass": false,
+  "final_decision": "NO-GO",
+  "abstention_policy": "p_bucket0",
+  "abstention_threshold": 0.1
+}
